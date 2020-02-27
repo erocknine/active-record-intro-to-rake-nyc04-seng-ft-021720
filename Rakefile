@@ -10,3 +10,4 @@ namespace :greeting do
   end
 end
 
+desc ''
