@@ -10,4 +10,6 @@ namespace :greeting do
   end
 end
 
-desc ''
+desc 'drop into pry'
+task :console do
+  
