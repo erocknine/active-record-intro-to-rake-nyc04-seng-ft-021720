@@ -26,7 +26,8 @@ namespace :db do
   end
   
   desc 'seed the base with dummy data'
-  task :seed
+  task :seed do
+    require_relative
   
 end
   
