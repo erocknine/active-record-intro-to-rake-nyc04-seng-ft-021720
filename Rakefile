@@ -15,5 +15,12 @@ task :console => :environment do
   Pry.start
 end
 
-task db:migrate = > :environment do
+namespace db do
+  task :migrate => :environment do
+    
+    
+  end
+end
+  
+  
   
