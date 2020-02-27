@@ -25,6 +25,8 @@ namespace :db do
     Students.create_table
   end
   
+  desc 'seed the base with dummy data'
+  task :db => :environment do
   
 end
   
